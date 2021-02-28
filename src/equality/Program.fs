@@ -36,7 +36,7 @@ type SimpleCustomer = { CustomerId : int }
 
 /// Creates a collection of n customers of different types and tests how long it takes to insert
 /// and then extract them all from a dictionary.
-[<SimpleJob (RuntimeMoniker.CoreRt50)>]
+[<SimpleJob (RuntimeMoniker.NetCoreApp50)>]
 type Benchmarks() =
     let mutable customers = Array.empty
     let mutable customersQuick = Array.empty

@@ -4,7 +4,7 @@ open BenchmarkDotNet.Attributes
 open BenchmarkDotNet.Running
 open BenchmarkDotNet.Jobs
 
-[<SimpleJob (RuntimeMoniker.CoreRt50)>]
+[<SimpleJob (RuntimeMoniker.NetCoreApp50)>]
 type Benchmarks () =
     let pickValue =
         let r = Random()
